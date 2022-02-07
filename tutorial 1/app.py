@@ -60,4 +60,4 @@ api.add_resource(PublicacionesResource,'/publicaciones')
 api.add_resource(PublicacionResource,'/publicaciones/<int:id>')
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
